@@ -3,8 +3,8 @@ Fixes :
 2 . changes in JarRepository for emitting data in the fetchResults function for the StateFlow to collect in the ViewModel.
 3 . Changing visibility by changing text color from Transparent to Black  (read it in a blog)
 4 . Wasn't able to return from second screen to first screen because navigate.value was not set to ""
-    so i changed it's value back to "" once the navigation is done.
+        so i changed it's value back to "" once the navigation is done.
 
 Implementation :
 
-  SearchQuery implementation by filtering out from the original api data and then showing it using a LazyColumn.
+SearchQuery implementation by filtering out from the original api data and then showing it using a LazyColumn.
