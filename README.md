@@ -1,4 +1,5 @@
 Fixes :
+
 1 . Collecting data returned by the fetchResults() function in a <List<CimputerItem>> named _listStringData which is a MutableStateFlow and then using the data to expose a StateFlow for the UI.
 
 2 . changes in JarRepository for emitting data in the fetchResults function for the StateFlow to collect in the ViewModel.
