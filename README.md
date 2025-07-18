@@ -10,4 +10,5 @@ Fixes :
         so i changed it's value back to "" once the navigation is done.
 
 Implementation :
+
 SearchQuery implementation by filtering out from the original api data and then showing it using a LazyColumn.
